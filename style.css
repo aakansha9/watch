@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Oswald', sans-serif;
+    letter-spacing: 2px;
+     background-color: black;
+}
+.container{
+    margin: 100px 0px;
+    height: 70vh;
+    background-color: black;
+    color: white;
+   border-top:8px solid rgb(247, 217, 141) ; 
+   border-bottom: 8px solid rgb(247, 217, 141);
+}      
+
+                              /* header*/
+.nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 25px 50px;
+
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo_img{
+    width: 100px;
+    height: 50px;
+}
+.list{
+    padding: 30px 20px;
+    display: flex;
+     align-items: center;
+    gap: 50px;
+}
+.list span a{
+    text-decoration: none;
+    color: white;
+}
+.list span a:hover{
+    color:rgb(247, 217, 141);
+    
+}
+                  
+                         /*main*/
+.main-container{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+ } 
+.main_img{
+    width: 350px;
+    height: 350px;
+    transition: all 0.5s ease;
+}  
+.main_img:hover{
+      border: 2px solid rgb(247, 217, 141);
+      width:360px ;
+      height: 360px;
+      cursor: pointer;
+      transform: translateY(-5px);
+}  
+ #font{
+    font-size: 60px;
+    color: rgb(247, 217, 141) ;
+}
+.img_flex{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    cursor: pointer;
+}  
+.imgs{
+    width: 100px;
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.imgs:hover{
+    width: 130px;
+    height: 80px;
+    border: 2px solid white;
+    transform: translateY(-5s);
+}
+.first-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}  
+.first-flex h2{
+    font-size: 40px;
+}          
+.btn{
+    padding:8px 10px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 19px;
+    font-weight: bolder;
+}
+.btn:hover{
+    color: green;
+    background-color: white;
+    cursor: pointer;
+}

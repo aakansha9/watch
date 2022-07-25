@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+        </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="nav">
+            <div class="logo">
+               <img src="./image/logo.jpg" alt="LOGO" class="logo_img">
+               <h1 style="color: rgb(247, 217, 141);">WATCH<small>es</small></h1>
+            </div>
+            <div class="list">
+                <span><a href="#">Home</a></span>
+                <span><a href="#">Product</a></span>
+                <span><a href="#">Gallery</a></span>
+                <span><a href="#">About</a></span>
+                <span><a href="#">Contact us</a></span>
+            </div>
+        </div>
+    </header>
+
+                                              <!---main -->
+
+    <div class="main-container">
+        <div class="first-flex">
+            <h2>New Collection</h2>
+            <p id="font">Luxury Watch</p>
+            <h4 style="color: rgb(247, 217, 141);">Best Product ever in Season</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                 Molestiae voluptatem repellat sit dolorum possimus n fugit repudiandae.<br>
+                 Dolorem exercitationem cum beatae deserunt laboriosam quam voluptas.</p>
+                 <button class="btn">Shop now</button>
+        </div>
+        <div class="img_flex">
+          <div> <img src="./image/img1.jpg" class="imgs"></div>
+          <div><img src="./image/img2.jpg" class="imgs"></div>
+          <div><img src="./image/img3.webp" class="imgs"></div>
+        </div>
+        <div>
+            <img src="./image/img4.webp" class="main_img">
+        </div>
+    </div>
+    </div>
+       <script>
+        function img(bhu){
+            document.querySelector('.image').src=bhu;
+        }
+       </script>
+</body>
+</html>
