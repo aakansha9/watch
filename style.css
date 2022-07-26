@@ -57,14 +57,14 @@
 .main_img{
     width: 350px;
     height: 350px;
-    transition: all 0.5s ease;
+    transition: all 0.2s linear;
 }  
 .main_img:hover{
       border: 2px solid rgb(247, 217, 141);
       width:360px ;
       height: 360px;
       cursor: pointer;
-      transform: translateY(-5px);
+      transform:scale(1.2);
 }  
  #font{
     font-size: 60px;
@@ -81,13 +81,13 @@
 .imgs{
     width: 100px;
     height: 50px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s linear;
 }
 .imgs:hover{
     width: 130px;
     height: 80px;
     border: 2px solid white;
-    transform: translateY(-5s);
+    transform:scale(1.2);
 }
 .first-flex{
     display: flex;
@@ -105,9 +105,11 @@
     color: white;
     border-radius: 19px;
     font-weight: bolder;
+    transition: all 0.5s ease;
 }
 .btn:hover{
     color: green;
     background-color: white;
     cursor: pointer;
+    transform: translateY(-5px);
 }
